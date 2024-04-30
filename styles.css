@@ -1,0 +1,62 @@
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #D5FFFF; 
+            text-align: center;
+        }
+
+        .page-title {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .kanban-board {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .column {
+            width: 30%;
+            background-color: #90EE90;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .column-header {
+            font-weight: bold;
+            padding-bottom: 10px;
+            border-bottom: 1.5px solid #ccc;
+        }
+
+        .card-list {
+            margin-bottom: 10px;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .card-form {
+            display: flex;
+            align-items: left;
+        }
+
+        .card-form input[type="text"] {
+            flex: 1;
+            padding: 5px;
+            margin-right: 5px;
+        }
+
+        .card-form button {
+            padding: 5px 10px;
+            background-color: #808080;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
